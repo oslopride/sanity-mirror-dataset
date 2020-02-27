@@ -1,0 +1,22 @@
+name: "Sanity Mirror Dataset"
+description: "Reset a dataset to mirror another dataset"
+inputs:
+  dataset_to_reset:
+    description: "The dataset to reset"
+    required: true
+  dataset_to_mirror:
+    description: "The dataset to mirror"
+    required: true
+    default: "production"
+  sanity_token:
+    description: "Your sanity token"
+    required: true
+  sanity_project_id:
+    description: "Your sanity project id"
+    required: true
+outputs:
+  result:
+    description: "The number of docuemnts deleted and imported"
+runs:
+  using: "node12"
+  main: "index.js"

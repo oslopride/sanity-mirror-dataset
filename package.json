@@ -1,0 +1,14 @@
+{
+  "name": "reset-sanity-dataset",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:oslopride/reset-sanity-dataset.git",
+  "author": "Oslo Pride <teknologi@oslopride.no>",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.2.2",
+    "@sanity/client": "^1.149.0",
+    "@sanity/export": "^1.149.0",
+    "@sanity/import": "^1.149.0"
+  }
+}
