@@ -1,5 +1,8 @@
 name: "Sanity Mirror Dataset"
 description: "Reset a dataset to mirror another dataset"
+branding:
+  icon: refresh-cw
+  color: orange
 inputs:
   dataset_to_reset:
     description: "The dataset to reset"
