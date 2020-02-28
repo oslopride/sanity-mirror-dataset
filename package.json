@@ -5,10 +5,16 @@
   "repository": "git@github.com:oslopride/reset-sanity-dataset.git",
   "author": "Oslo Pride <teknologi@oslopride.no>",
   "license": "MIT",
+  "scripts": {
+    "build": "ncc build index.js -o dist"
+  },
   "dependencies": {
     "@actions/core": "^1.2.2",
     "@sanity/client": "^1.149.0",
     "@sanity/export": "^1.149.0",
     "@sanity/import": "^1.149.0"
+  },
+  "devDependencies": {
+    "@zeit/ncc": "^0.21.1"
   }
 }
