@@ -73,7 +73,7 @@ async function main() {
 		assetConcurrency: 12
   });
   
-  core.debug(`Importing '${datasetToMirror}' into '${dataset}'...`);
+  core.debug(`Importing '${datasetToMirror}' into '${datasetToReset}'...`);
 
   const exportedDataset = fs.createReadStream(outputPath);
 
