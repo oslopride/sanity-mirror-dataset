@@ -68,7 +68,7 @@ async function main() {
 		client,
 		outputPath,
 		dataset: datasetToMirror,
-		raw: true,
+		raw: false,
 		drafts: false,
 		assetConcurrency: 12
   });
