@@ -9,7 +9,7 @@
     "build": "ncc build index.js -o dist"
   },
   "dependencies": {
-    "@actions/core": "^1.2.2",
+    "@actions/core": "^1.9.1",
     "@sanity/client": "^1.149.0",
     "@sanity/export": "^1.149.0",
     "@sanity/import": "^1.149.0"
